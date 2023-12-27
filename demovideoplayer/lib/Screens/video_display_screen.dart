@@ -47,7 +47,7 @@ bool isloading = true;
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          isloading? Center(child: CircularProgressIndicator(),):CustomVideoPlayer(
+          isloading? const Center( child: CircularProgressIndicator(),):CustomVideoPlayer(
               customVideoPlayerController: _customVideoPlayerController
           ),
 
